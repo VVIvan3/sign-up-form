@@ -189,3 +189,15 @@ button:active {
 p, input {
     font-family: Helvetica;
 }
+
+.errorpwd {
+    content: "Password do not match!";
+    display: inline;
+    margin-left: 1.5vh;
+    font-size: 1rem;
+    color: red;
+}
+
+.hidden {
+    visibility: hidden;
+}
