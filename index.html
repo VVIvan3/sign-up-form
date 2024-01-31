@@ -4,21 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="image-box">
-            <div class="image">PROJECT</div>
+            <div class="image-content">
+                <img alt="project logo" class="logo" src="./img/bar-chart-outline.svg">
+                <p class="logo-text">PROJECT</p>
+            </div>
+            <p class="source">Photo source: <a href="https://unsplash.com/photos/assorted-color-office-items-on-table-9OKGEVJiTKk">Jo Szczepanska</a></p>
         </div>
-    </div>
-    <div class="form-box">
-        <div class="text-area">FILL</div>
-        <div class="form-holder">
-
-        </div>
-        <div class="other">
-            <button>Sign-up</button>
-            <div>Already have an account? <a href="#">Log in</a></div>
+        <div class="form-box">
+            <div class="text-area">FILL</div>
+            <div class="form-holder">
+                <fieldset>
+                    <div class="main-form">
+                        <legend>Let's do this!</legend>
+                        <section class="general-section">
+                            <section>
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name">
+                            </section>
+                            <section>
+                                <label for="lastname">Last name:</label>
+                                <input type="text" id="lastname" name="lastname">
+                            </section>
+                        </section>
+                        <section class="general-section">
+                            <section>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email">
+                            </section>
+                            <section>
+                                <label for="phone">Phone number:</label>
+                                <input type="tel" name="phone" id="phone">
+                            </section>
+                        </section>
+                        <section class="general-section">
+                            <section>
+                                <label for="pwd">Password:</label>
+                                <input type="password" name="pwd" id="pwd">
+                            </section>
+                            <section>
+                                <label for="repeat">Repeat password:</label>
+                                <input type="password" name="repeat" id="repeat">
+                            </section>
+                        </section>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="other">
+                <button>Sign-up</button>
+                <div>Already have an account? <a href="#">Log in</a></div>
+            </div>
         </div>
     </div>
 </body>
