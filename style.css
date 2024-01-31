@@ -8,6 +8,11 @@
     padding: 0;
 }
 
+html {
+    width: 100vh;
+    height: 100vh;
+}
+
 body {
     display: flex;
     width: 100vw;
@@ -156,6 +161,31 @@ input:focus {
 
 button {
     margin: 1.5rem 0 0.5rem 1.5rem;
-    width: 10rem;
-    height: 1.5rem;
+    width: 25%;
+    height: 15%;
+    background: rgb(42, 177, 42);
+    border: none;
+    border-radius: 3px;
+    color: white
+}
+
+button:hover {
+    background: rgb(68, 146, 68);
+}
+
+button:active {
+    background: rgb(0, 255, 0);
+}
+
+.other-text {
+    margin-left: 0.75rem;
+}
+
+.other-text > a {
+    color: green;
+    text-decoration: none;
+}
+
+p, input {
+    font-family: Helvetica;
 }
